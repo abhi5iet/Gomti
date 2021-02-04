@@ -177,7 +177,9 @@
     float: left;
 }
 .img{
-   display: none;
+  float: left;
+  width: 45%;
+  margin-left: 0px;
 }
 .font{
     width: 85%;
