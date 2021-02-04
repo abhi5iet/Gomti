@@ -172,13 +172,13 @@
    color: rgb(3, 3, 59);
 }
 #div1_1{
-    width: 100%;
+    width: 40%;
     height: 60vh;
     float: left;
 }
 .img{
-  float: left;
-  width: 45%;
+  width: 40%;
+  height: 60vh;
   margin-left: 0px;
 }
 .font{
@@ -221,12 +221,12 @@
     margin-bottom: 5vh;
 }
 .div1_2_2{
-    display: flex;
+    display: grid;
+    grid-template-columns:  100px 100px 100px 100px 100px 100px 100px;
+    gap: 80px;
     width: 90%;
     height: 10vh;
     margin: auto;
-    flex-wrap:wrap;
-    background-color: blue;
 }
 .div1_2_2>img{
     min-width: 30px;
