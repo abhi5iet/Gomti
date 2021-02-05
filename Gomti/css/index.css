@@ -517,6 +517,7 @@ nav{
     height: 75vh;
     background-image: url(home_last_trial.png);
     background-size: contain;
+    background-repeat: no-repeat;
 }
 #lastrial h1{
     font-weight: bolder;
