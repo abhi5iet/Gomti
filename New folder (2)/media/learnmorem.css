@@ -43,6 +43,10 @@
     border: none;
     color: white;
 }
+.div1_2_1{
+    clear: both;
+    margin-top: 50px;
+}
 .div1_2_2{
     display: grid;
     grid-template-columns:  30px 30px 30px 30px 30px 30px 30px;
@@ -136,12 +140,12 @@
        color: rgb(3, 3, 59);
     }
     .img{
-        width: 45%;
+        
+        width: 40%;
         height: 50vh;
-        margin-left: 100px;
     }
     .font{
-        width: 90%;
+        width: 60%;
         font-size: 35px;
         margin-bottom: 25px;
     }
@@ -155,7 +159,7 @@
     }
     .div1_2_1{
         clear: both;
-        margin-top: 10%;
+        margin-top: 50px;
           text-align: center;
           font-family: 'Montserrat', sans-serif;
     }
