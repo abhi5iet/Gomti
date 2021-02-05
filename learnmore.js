@@ -14,3 +14,12 @@ function colour(){
 
    document.querySelector("#buton1").addEventListener('mouseover', colour);
    document.querySelector("#buton1").addEventListener('mouseout', switchColor2)
+
+//    navigation bar function
+   function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
