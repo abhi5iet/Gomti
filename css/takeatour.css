@@ -3,6 +3,14 @@
   margin: 0;
   padding: 0;
 }
+.navigation-bar {
+  width: 100%;
+  height: 10vh;
+  background-color: hotpink;
+}
+.nav-img {
+  padding-left: 7vh;
+}
 h1 {
   font-size: 7vh;
   line-height: 8vh;
@@ -17,11 +25,14 @@ h1 {
 button {
   width: 17vw;
   height: 7.8vh;
-  background-color: green;
+  background-color: #08cf65;
   border-radius: 4px;
   font-size: 3vh;
   color: white;
   border: thin;
+}
+button:hover {
+  background-color: #04ba71;
 }
 input {
   width: 20vw;
@@ -49,6 +60,10 @@ input {
   padding-top: 10vh;
   height: 100vh;
   width: 100%;
+  background-image: url("../img/4.svg");
+  background-repeat: no-repeat;
+  background-size: 720px;
+  background-position: 650px 210px;
 }
 .footer1 {
   width: 100vw;
@@ -65,7 +80,6 @@ input {
   background-size: 600px, 600px;
   line-height: 12vh;
 }
-
 .footer {
   background-color: #0c3245;
   width: 100vw;
@@ -199,6 +213,7 @@ h2 {
   float: right;
   margin-right: 10vh;
 }
+
 .burnout {
   width: 100%;
   height: 80vh;
@@ -206,7 +221,7 @@ h2 {
   background-image: url("../img/4.svg");
   background-repeat: no-repeat;
   background-size: 720px;
-  background-position: 125px 15px;
+  background-position: 130px 10px;
 }
 .automated {
   width: 100%;
@@ -215,7 +230,7 @@ h2 {
   background-image: url("../img/4.svg");
   background-repeat: no-repeat;
   background-size: 700px;
-  background-position: 725px 18px;
+  background-position: 725px 13px;
 }
 .security {
   width: 100%;
@@ -235,12 +250,21 @@ span:hover {
   color: green;
 }
 .selectors {
-  width: 50%;
+  width: 30%;
   display: flex;
   flex-direction: column;
   padding-left: 15vw;
   padding-top: 8vh;
 }
+.product {
+  display: flex;
+  flex-direction: row;
+}
+.imgcontent {
+  width: 60%;
+  display: block;
+}
+
 #s1 {
   margin-top: 10px;
   background-color: white;
