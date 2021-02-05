@@ -74,7 +74,6 @@ nav{
 #hdleft>div {
     width: 25%;
     padding-top: 2%;
-    /* border: 1px solid red; */
 }
 
 #hdleft>div:first-child {
@@ -94,7 +93,7 @@ nav{
     font-size: 17px;
     color: black;
     cursor: pointer;
-    font-weight: bold;
+    font-weight: normal;
     border: none;
 }
 
@@ -119,12 +118,12 @@ nav{
 }
 
 #hdright button {
-    width: 100%;
+    width: 90%;
     height: 100%;
     color: white;
-    font-weight: bold;
-    font-size: 18px;
-    border-radius: 8%;
+    font-weight: normal;
+    font-size: 15px;
+    border-radius: 4%;
     background-color: limegreen;
     cursor: pointer;
     border: 2px solid limegreen;
