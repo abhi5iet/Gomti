@@ -46,7 +46,7 @@ nav {
 .dropdown-content a:hover,
 .dropdown-content2 a:hover,
 .dropdown-content3 a:hover {
-  color: white;
+  color: green;
 }
 
 .dropdown:hover .dropdown-content {
