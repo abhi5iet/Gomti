@@ -74,6 +74,7 @@ nav{
 #hdleft>div {
     width: 25%;
     padding-top: 2%;
+    /* border: 1px solid red; */
 }
 
 #hdleft>div:first-child {
@@ -118,77 +119,15 @@ nav{
 }
 
 #hdright button {
-    width: 90%;
+    width: 100%;
     height: 100%;
     color: white;
     font-weight: bold;
-    font-size: 15px;
-    border-radius: 4%;
+    font-size: 18px;
+    border-radius: 8%;
     background-color: limegreen;
     cursor: pointer;
     border: 2px solid limegreen;
-}
-#sdnav{
-    display: none;
-}
-.sidenav {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    right: 0;
-    background-color: white;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
-}
-
-.sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: black;
-    display: block;
-    transition: 0.3s;
-}
-
-.sidenav a:hover {
-    color: limegreen
-}
-
-.sidenav .closebtnnn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-}
-
-#spnn {
-    margin-left: 80%;
-    width: 70px;
-    height: 50px;
-    font-size: 35px;
-    position: absolute;
-    right: 0;
-}
-
-#sdnavflex {
-    display: flex;
-    position: sticky;
-    top: 0px;
-    background-color: white;
-}
-
-#sdnavlogo {
-    height: 50px;
-    width: 128px;
-}
-
-#sdnavlogo>img {
-    width: 100%;
-    height: auto;
 }
 
 #heading {
@@ -516,7 +455,6 @@ nav{
     height: 75vh;
     background-image: url(home_last_trial.png);
     background-size: contain;
-    background-repeat: no-repeat;
 }
 #lastrial h1{
     font-weight: bolder;
