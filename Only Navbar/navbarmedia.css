@@ -1,0 +1,12 @@
+/* Put the navbar media query css below the desktop css */
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 992px) {
+    #flex_head{
+        display: none;
+    }
+    #sdnav{
+        display: block;
+        position: sticky;
+        top: 0px;
+    }
+}
