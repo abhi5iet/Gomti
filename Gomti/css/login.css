@@ -1,0 +1,92 @@
+a{
+    color: black;
+}
+*{
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+}
+#contt{
+    height: 75vh;
+    width: 38vw;
+    margin: auto;
+    margin-top: 4%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#wrike{
+    height: 24%;
+    width: 55%;
+    margin: auto;
+    margin-top: 5%;
+}
+#wrike>img{
+    width: 100%;
+    height: auto;
+}
+#formm{
+    width: 80%;
+    height: 300px;
+    margin: auto;
+    margin-top: 5px;
+}
+#formm a{
+    text-align: center;
+    font-weight: lighter;
+    margin-top: 5px;
+}
+#formm p{
+    text-align: center;
+    color: gray;
+}
+p>a{
+    color: blue;
+}
+input{
+    display: block;
+}
+input[type="email"], input[type="submit"]{
+    width: 98%;
+    margin: auto;
+    height: 50px;
+    margin: 4px;
+}
+input[type="email"]{
+    width: 95%;
+}
+input[type="email"]::placeholder{
+    font-size: 15px;
+    text-align: center;
+}
+input[type="submit"]{
+    background-color: blue;
+    color: white;
+    border: 1px solid blue;
+    margin-top: 10px;
+}
+#orLoginWith{
+    margin-top: 70px;
+}
+#login_flex{
+    display: flex;
+    margin-top: 5%;
+}
+#login_flex > div:first-child{
+    margin-left: 26%;
+    border: 1px solid black;
+    padding: 2%;
+}
+#login_flex > div:last-child{
+    margin-left: 4%;
+    border: 1px solid black;
+    padding: 2%;
+}
+#sinup{
+    text-align: center;
+    margin-top: 3%;
+}
+#sinup a{
+    color: blue;
+}
+#login_flex > div:hover, #login_flex > div>a:hover{
+    color: white;
+    background-color: gray;
+}

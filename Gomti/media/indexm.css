@@ -63,4 +63,7 @@
     #trial input[type="submit"]{
         font-size: 12px;
     }
+    .footer{
+        display: none;
+    }
 }
