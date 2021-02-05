@@ -129,6 +129,68 @@ nav{
     cursor: pointer;
     border: 2px solid limegreen;
 }
+#sdnav{
+    display: none;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: limegreen
+}
+
+.sidenav .closebtnnn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#spnn {
+    margin-left: 80%;
+    width: 70px;
+    height: 50px;
+    font-size: 35px;
+    position: absolute;
+    right: 0;
+}
+
+#sdnavflex {
+    display: flex;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+
+#sdnavlogo {
+    height: 50px;
+    width: 128px;
+}
+
+#sdnavlogo>img {
+    width: 100%;
+    height: auto;
+}
 
 #heading {
     height: 80vh;

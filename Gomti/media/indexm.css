@@ -1,0 +1,66 @@
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 992px) {
+    #flex_head{
+        display: none;
+    }
+    #sdnav{
+        display: block;
+        position: sticky;
+        top: 0px;
+    }
+    #boyzz{
+        background-image: none;
+        background-color: white;
+    }
+    #grid1{
+        grid-template: "img1"
+                        "content1";
+    }
+    #grid2 p, #grid2 h1, #grid2 h2, #grid3 p, #grid3 h1, #grid3 h2, #grid4 p, #grid4 h1, #grid4 h2, #grid5 p, #grid5 h1, #grid5 h2, #grid6 p, #grid6 h1, #grid6 h2{
+        width: 80%;
+    }
+    #grid2{
+        grid-template: "img2"
+                        "content2";
+    }
+    #grid3{
+        grid-template: "img3"
+                        "content3";
+    }
+    #grid4{
+        grid-template: "img4"
+                        "content4";
+    }
+    #grid5{
+        grid-template: "img5"
+                        "content5";
+    }
+    #grid6{
+        grid-template: "img6"
+                        "content6";
+    }
+    #lastrial{
+        background-image: none;
+    }
+    #formtrial input[type="email"]::placeholder{
+        font-size: 14px;
+    }
+    #formtrial input[type="submit"]{
+        font-size: 14px;
+    }
+    #arvigflex{
+        background-size: contain;
+    }
+    #arvigflex h1{
+        font-size: 100%;
+    }
+    #arvigflex p {
+        font-size: 80%;
+    }
+    #trial input[type="email"]::placeholder{
+        font-size: 12px;
+    }
+    #trial input[type="submit"]{
+        font-size: 12px;
+    }
+}
