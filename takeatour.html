@@ -18,32 +18,15 @@
   </head>
   <body>
     <!-- navigation bar -->
-    <div style="width: 100%; height: 45px; background-color: #ffa200">
-      <p style="color: white; text-align: center">
-        Citrix agrees to acquire Wrike →
-        <a href="" style="color: white"
-          >Read message from our CEO Andrew Filev</a
-        >
-      </p>
-    </div>
-    <div style="width: 80vw; height: 80px; display: flex; margin: auto">
-      <div style="width: 50%; height: 80px; display: flex">
-        <img src="wrike.png" alt="" />
-        <nav
-          style="
-            width: 100%;
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            text-align: center;
-            text-decoration: none;
-            color: black;
-          "
-        >
-          <!-- <a class="nav-items" href="">Product <i class="fa fa-caret-down"></i></a> -->
-          <div class="dropdown">
-              <a class="nav-items" href="">Product <i class="fa fa-caret-down"></i></a>
-            <div class="dropdown-content">
+  <nav id="flex_head">
+    <div id="hdleft">
+        <div>
+            <img src="wrike_homepage.png" alt="Wrike">
+        </div>
+        <div class="dropdown2">
+            <button class="dropbtn2">Product &blacktriangledown; </button>
+            <div class="dropdown-content2">
+                <a href="./index.html" target="_blank" rel="noopener noreferrer">Home</a>
                 <a href="./takeatour.html" target="_blank" rel="noopener noreferrer">Take a Tour</a>
                 <a href="http://" target="_blank" rel="noopener noreferrer">Features</a>
                 <a href="http://" target="_blank" rel="noopener noreferrer">Project Templates</a>
@@ -51,11 +34,10 @@
                 <a href="http://" target="_blank" rel="noopener noreferrer">Security</a>
                 <a href="http://" target="_blank" rel="noopener noreferrer">Watch Live Demo</a>
             </div>
-          </div>
-          <!-- <a class="nav-items" href="">Solutions <i class="fa fa-caret-down"></i></a> -->
-          <div class="dropdown">
-              <a class="nav-items" href="">Solutions <i class="fa fa-caret-down"></i></a>
-            <div class="dropdown-content">
+        </div>
+        <div class="dropdown2">
+            <button class="dropbtn2">solutions &blacktriangledown; </button>
+            <div class="dropdown-content2">
                 <a href="http://" target="_blank" rel="noopener noreferrer">Project Managers</a>
                 <a href="http://" target="_blank" rel="noopener noreferrer">Marketing</a>
                 <a href="http://" target="_blank" rel="noopener noreferrer">Creative</a>
@@ -63,12 +45,11 @@
                 <a href="http://" target="_blank" rel="noopener noreferrer">Product Development</a>
                 <a href="http://" target="_blank" rel="noopener noreferrer">Company-Wide</a>
             </div>
-          </div>
-          <a class="nav-items" href="">Pricing</a>
-          <!-- <a class="nav-items" href="">Resources <i class="fa fa-caret-down"></i></a> -->
-          <div class="dropdown">
-                <a class="nav-items" href="">Resources <i class="fa fa-caret-down"></i></a>
-            <div class="dropdown-content">
+        </div>
+        <div ><button class="dropbtn3" target="_blank" rel="noopener noreferrer">Pricing</button></div>
+        <div class="dropdown3">
+            <button class="dropbtn3">Resources &blacktriangledown; </button>
+            <div class="dropdown-content3">
                 <a href="http://" target="_blank" rel="noopener noreferrer">COVID-19</a>
                 <a href="http://" target="_blank" rel="noopener noreferrer">Blog</a>
                 <a href="http://" target="_blank" rel="noopener noreferrer">Webinars</a>
@@ -77,45 +58,38 @@
                 <a href="http://" target="_blank" rel="noopener noreferrer">Company</a>
                 <a href="http://" target="_blank" rel="noopener noreferrer">Careers</a>
             </div>
-          </div>
-        </nav>
-      </div>
-      <div style="width: 10%"></div>
-      <div style="width: 40%; height: 80px; display: flex">
-        <nav
-          style="
-            width: 100%;
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            text-align: right;
-            text-decoration: none;
-          "
-        >
-          <a class="nav-items" href="">Contact Sales</a> 
-          <div class="dropdown">
-              <a class="nav-items" href=""><i class="fa fa-language"></i> En</a>
-            <div class="dropdown-content">
-                <a href="http://" target="_blank" rel="noopener noreferrer">English</a>
-                <a href="http://" target="_blank" rel="noopener noreferrer">Dansk</a>
-                <a href="http://" target="_blank" rel="noopener noreferrer">Deutsch</a>
-                <a href="http://" target="_blank" rel="noopener noreferrer">Bahasa Indonesia</a>
-                <a href="http://" target="_blank" rel="noopener noreferrer">Italiano</a>
-                <a href="http://" target="_blank" rel="noopener noreferrer">Bahasa Melayu</a>
-                <a href="http://" target="_blank" rel="noopener noreferrer">Netherlands</a>
-            </div>
-          </div>
-          <a class="nav-items" href="">Login</a>
-          <a href="" class="aid1">Start for free</a
-          >
-        </nav>
-      </div>
+        </div>
     </div>
+    <div id="hdright">
+        <div><a href="http://" target="_blank" rel="noopener noreferrer">Contact Sales</a></div>
+        <div>
+            <img src="en_homepage.png" alt="en">
+            <a href="http://" target="_blank" rel="noopener noreferrer">En</a>
+        </div>
+        <div><a href="login.html" target="_blank" rel="noopener noreferrer">Log in</a></div>
+        <div>
+            <button type="submit">Start For Free</button>
+        </div>
+    </div>
+</nav>
+<div id="sdnav">
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtnnn" onclick="closeNav()">&times;</a>
+        <a href="#" target="_blank" rel="noopener noreferrer">Home</a>
+        <a href="learnmore.html" target="_blank" rel="noopener noreferrer">Learn More</a>
+        <a href="takeatour.html" target="_blank" rel="noopener noreferrer">Take a tour</a>
+        <a href="login.html" target="_blank" rel="noopener noreferrer">Log in</a>
+    </div>
+    <div id="sdnavflex">
+        <div id="sdnavlogo"><img src="wrike_sidenav.png" alt=""></div>
+        <div id="spnn" onclick="openNav()">&#9776; </div>
+    </div>
+</div>
     <!-- navigation bar ends -->
     <!-- ***************************************** Header start ****************************************  -->
     <div class="header">
       <h1>
-        Transform the way<br /><br>
+        Transform the way<br />
         you work
       </h1>
       <p id="p1">
@@ -219,7 +193,7 @@
             you need with visual, dynamic reports you can easily share with all
             your stakeholders.
           </p>
-          <span>Learn more </span>
+        <a href="./learnmore.html" target="_blank" rel="noopener noreferrer"><span>Learn more </span></a>
         </div>
         <div class="imagecontent">
           <img src="img/empower.img" />
@@ -239,7 +213,7 @@
           Wrike Resource and ensure your team isn’t either under- or overworked
           with easy time and effort tracking, as well as workload management.
         </p>
-        <span>Learn more </span>
+        <a href="./learnmore.html" target="_blank" rel="noopener noreferrer"><span>Learn more </span></a>
       </div>
     </div>
     <!-- burnout ends -->
@@ -253,7 +227,7 @@
           want, letting you achieve levels of productivity and automation you
           never thought possible.
         </p>
-        <span>Learn more </span>
+        <a href="./learnmore.html" target="_blank" rel="noopener noreferrer"><span>Learn more </span></a>
       </div>
       <div class="imagecontent">
         <img src="img/wrink.png" />
@@ -273,7 +247,7 @@
           enterprise-grade security, and no one else gives you full control over
           your data encryption.
         </p>
-        <span>Learn more </span>
+        <a href="./learnmore.html" target="_blank" rel="noopener noreferrer"><span>Learn more </span></a>
       </div>
     </div>
     <!-- security ends -->
@@ -379,6 +353,13 @@
         </p>
       </div>
       <!-- footer ends -->
-    </div>
+    </div><script>
+    function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}</script>
   </body>
 </html>
