@@ -9,6 +9,6 @@ link : <a href="https://wrikeclone.vercel.app/">https://wrikeclone.vercel.app</a
 <h2>Project</h2>
 We Tried to implement a few of these pages using HTML5, CSS and Javascript
 
-Landing Page - Deepak Hegde
-Tour page - Harshit Sanas
-Product page - Abhishek
+Landing Page - Deepak Hegde <br/>
+Tour page - Harshit Sanas<br/>
+Product page - Abhishek<br/>
